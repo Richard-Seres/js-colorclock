@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="clock.css">
+    <script src="clock.js"></script>
+    <title>JS Color Clock</title>
+    <meta name="description" content="JS Color Clock">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="row">
+      <div class="container col-lg-12 col-xs-12">
+        <div id="clock">12:13:14</div>
+        <script>document.getElementById('clock').innerHTML = colorClock()</script>
+      </div>
+    </div>
+  </body>
+</html>

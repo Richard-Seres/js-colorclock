@@ -1,0 +1,28 @@
+html, body {
+  height:       100%;
+  position:     relative;
+}
+
+  .container {
+    text-align: center;
+    position:   absolute;
+    top:        50%;
+  }
+    
+    #clock {
+      color:       white;
+      font-family: 'Exo 2', sans-serif;
+      font-size:    10rem;
+      margin-top:   -10rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        left: 0%;
+      }
+
+      #clock {
+      font-size:   6rem;
+      margin-top:   -6rem;
+      }
+    }
